@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-size: cover;
+    background-image: url(wallpapers.jpg);
+    background-color: #0000008a;
+}
+
+strong{
+    color: #e5f31e;
+}
+
+strong, p{
+    margin: 0px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 6px;
+    border:1px solid #0000008a;
+    background-color: rgba(255, 255, 255, 0.37);
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    
+}
+
+.message-recive{
+    margin: 2px;
+    margin-bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: #f2f2f2;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 6px;
+    display: flex;
+}
+
+.message-send{
+    margin: 2px;
+    margin-bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: #f2f2f2;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 6px;
+    display: flex;
+    margin-left: auto;
+    
+    
+
+}
+
+.sendMessage{
+    display: flex;
+}
+
+.chatInput {
+    width: 80%;
+    height: 3vh;
+    box-shadow: none;
+    border: 2px solid #0000008a;
+    border-radius: 6px;
+    align-items: center;
+    background-color: aliceblue;
+    flex: 1 0 auto;
+    font-family: sans-serif;
+    font-size: 17px;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    flex-grow: 1;
+}
+
+.chatInput ::placeholder{
+    border-color: none;
+}
+
+.send{
+    width: 1%;
+    height: 3vh;
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: #04c92e8a;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #000000f5;
+    flex-grow: 1;
+}
+
+
+
+.send ::placeholder{
+    background-color: aqua;
+}
