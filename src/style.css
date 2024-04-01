@@ -66,7 +66,7 @@ strong, p{
 
 .chatInput {
     width: 80%;
-    height: 3vh;
+    height: 4vh;
     box-shadow: none;
     border: 2px solid #0000008a;
     border-radius: 6px;
@@ -87,7 +87,7 @@ strong, p{
 
 .send{
     width: 1%;
-    height: 3vh;
+    height: 4vh;
     font-size: 17px;
     font-family: sans-serif;
     background-color: #04c92e8a;
